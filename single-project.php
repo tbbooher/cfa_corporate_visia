@@ -19,8 +19,6 @@
 					case( false ) :
 					?>
 
-					<?php $content->img(941,0); ?>
-
 					<?php
 					break;
 
