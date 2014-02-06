@@ -561,7 +561,7 @@ sub, sup {
 	z-index: 99999 !important;
 }
 
-.price {
+#price .grid2 {
 	color: white;
 	border: 1px solid gray;
 }
