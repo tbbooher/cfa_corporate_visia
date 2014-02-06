@@ -337,3 +337,22 @@ section .content.padded.background-page {
 .icons .overview {
 	width: 25%;
 }
+
+/* Removing the red hover color and cross-hair cursor */
+.projectlist a:hover { 
+	cursor: pointer;
+}
+
+.projectlist a:hover .projectinfo {
+	background: rgba(0,0,0,.33);
+}
+
+/* Adding a clear for the fourth float element to handle more than three team members */
+.team-member.grid-2:nth-child(4) {
+	clear: both;
+}
+
+/* Needed some space below the sections */
+.team-member.grid-2 {
+	margin-bottom: 4em;
+}
