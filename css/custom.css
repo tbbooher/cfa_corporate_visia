@@ -330,3 +330,10 @@ opacity: 1;
 section .content.padded.background-page {
 	padding-bottom: 0px;
 }
+
+/* Fixes to layout for non-default settings */
+
+/* This is the setting for 4 icons. The default is 6 and width set to 16% */
+.icons .overview {
+	width: 25%;
+}
