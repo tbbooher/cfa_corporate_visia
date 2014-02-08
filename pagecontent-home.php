@@ -14,6 +14,9 @@
 <?php while ($content->looping() ) : ?>
 <?php $template = strtr($content->pageTemplate(),$replace); ?>
 <?php if ($template === "home") continue; ?>
+<div style="background-color:red; font-size:30px:">
+  <?php echo $template ?>
+</div>
 <?php get_template_part("pagecontent",$template); ?>
 <?php endwhile; ?>
 <?php $content->resetLoop(); ?>
