@@ -561,3 +561,8 @@ sub, sup {
 	z-index: 99999 !important;
 }
 
+.price {
+	color: white;
+	border: 1px solid gray;
+}
+

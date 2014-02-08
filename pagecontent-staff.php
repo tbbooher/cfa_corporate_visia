@@ -5,7 +5,6 @@
 <?php if ( defined( 'HOME_SLIDER') ) echo '<div class="slider-cover">'; ?>
 <!-- Begin Team -->
 <section class="content container" id="<?php $content->slug(); ?>">
-
 		<div class="title grid-full">
 			<h2><?php $content->title(); ?></h2>
 			<span class="border"></span>
@@ -55,7 +54,11 @@
 					$position = isset( $meta->info->position ) ? $meta->info->position : '';
 					?>
 					<li class="team-member grid-2">			
-
+						<div class="team-member-img">
+						<?php
+						 	the_post_thumbnail("full");
+						?>
+						</div>
 						<div class="name">
 							<h4><?php $content->title(); ?></h4>
 							<h6><em><?php echo $position; ?></em></h6>
