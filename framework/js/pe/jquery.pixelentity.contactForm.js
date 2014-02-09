@@ -13,7 +13,8 @@
 	var ajaxurl = window.peContactForm ? decodeURIComponent(window.peContactForm.url) : false;
 	var validateRegexps = {
 			"email": /^[a-zA-Z0-9._\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,4}$/,
-			"default": /.{4}/ 
+			"name": /.{3}/,
+			"message": /.{4}/ 
 		};
 	
 	function PeThemeContactForm(target, conf) {

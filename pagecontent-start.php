@@ -16,7 +16,7 @@
 					<fieldset>
 						<div class="form-field grid-half control-group">
 							<label for="name"><?php _e("Name",'Pixelentity Theme/Plugin'); ?></label>
-							<span><input type="text" class="required" name="name" id="name" /></span>
+							<span><input type="text" class="required" name="name" id="name" data-validation="name" /></span>
 						</div>
 						<div class="form-field grid-half  control-group">
 							<label for="email"><?php _e("Email",'Pixelentity Theme/Plugin'); ?></label>
@@ -24,7 +24,7 @@
 						</div>
 						<div class="form-field grid-full control-group">
 							<label for="message"><?php _e("Message",'Pixelentity Theme/Plugin'); ?></label>
-							<span><textarea name="message" class="required" id="message"></textarea></span>
+							<span><textarea name="message" class="required" id="message" data-validation="message"></textarea></span>
 						</div>
 					</fieldset>
 					<div class="form-click grid-full">
