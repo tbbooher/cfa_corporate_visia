@@ -367,8 +367,6 @@ section .content.padded.background-page {
 	margin: 1em auto;
 }
 
-
-
 /* removing Google Talk link color */
 span.gc-cs-link {
 color: #fff;
@@ -392,48 +390,69 @@ border-top: 8px solid #000;
 	background: #000;
 }
 
-.price-table, .price-table_primary {
+#get-started .sub-heading {
+	max-width: 960px;
+}
+
+.sub-heading.get-started p {
+	max-width: 630px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.price-table {
 	margin-top: 2em;
 }
-.price-table-title, .price-table-cost {
-	font-size: 2em;
+
+.get-started .price-table-title, .get-started .price-table-cost {
+	font-size: 2.25em!important;
+	letter-spacing: normal;
 	margin-bottom: .5em;
+	color: #979799;
 }
 
-.price-table-cost, .price-table-details {
-	background: #525252;
-	background: rgba(82,82,82,.2);
-	border-radius: 5px 5px 0 0;
-	margin-bottom: 0;	
-	padding: .5em 0;
-}
-
-.price-table_primary .price-table-cost {
-	background: #0d0d0d;
-	background: rgba(5,5,5,.66);
+.get-started .price-table-best .price-table-title {
 	color: #fff;
-	font-size: 2em;
+}
+
+.price-table .price-table-cost {
+	background: #232323;
+	background: rgba(82,82,82,.20);
+	border-radius: 5px 5px 0 0;
+	margin-bottom: 0;
+	padding: 5px 0;
+}
+
+.price-table-best .price-table-cost {
+	background: #2c2c2c;
+	background: rgba(82,82,82,.45);
+	color: #fff;
 }
 
 .price-table-cost small {
 	font-size: .7em;
 }
 
-.price-table-details {
-	background: #949494;
+.price-table .price-table-details {
+	background: #292929;
 	background: rgba(148,148,148,.15);
 	border-radius: 0 0 5px 5px;
+	padding: .5em 0;
 }
 
-.price-table_primary .price-table-details {
-	background: #151515;
-	background: rgba(5,5,5,.5);
-	color: #fff;
+.price-table-best .price-table-details {
+	background: #3f3f3f;
+	background: rgba(148,148,148,.3);
 }
 
- .price-table-details p {
+.price-table-details p {
+ 	color: #979799;
  	font-size: 2.8em;
  	line-height: 1;
+ }
+
+ .price-table-best .price-table-details p {
+ 	color: #fff;
  }
 
 .price-table-details small {
@@ -454,5 +473,4 @@ border-top: 8px solid #000;
   .team-member.grid-2:nth-child(4) {
     clear: none;
   }
-
 }
