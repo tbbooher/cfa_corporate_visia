@@ -398,3 +398,7 @@ background: #000;
 .arrow-down {
 border-top: 8px solid #000;
 }
+
+.parallax.colored {
+	background: #000;
+}
